@@ -7,3 +7,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * NOME SOBRENOME (@login)
 * Luciano Filho (@LucianoSegundo)
 * Rafael Marques (@rfdsm)
+* Maiara Santos (@aguedamaiara)
