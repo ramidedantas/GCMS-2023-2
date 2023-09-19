@@ -10,3 +10,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Maiara Santos (@aguedamaiara)
 * Rebeca Jamilly (@ImBeca)
 * Alane Alves (@alanealvess)
+* André Pereira da Silva (@silvaandrep)
