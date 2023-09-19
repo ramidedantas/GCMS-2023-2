@@ -9,3 +9,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Rafael Marques (@rfdsm)
 * Maiara Santos (@aguedamaiara)
 * Rebeca Jamilly (@ImBeca)
+* Alane Alves (@alanealvess)
