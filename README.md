@@ -11,3 +11,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Rebeca Jamilly (@ImBeca)
 * Alane Alves (@alanealvess)
 * André Pereira da Silva (@silvaandrep)
+* Flávio Vieira (@flaviovieiraj)
