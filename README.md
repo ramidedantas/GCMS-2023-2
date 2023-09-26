@@ -12,3 +12,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Alane Alves (@alanealvess)
 * André Pereira da Silva (@silvaandrep)
 * Flávio Vieira (@flaviovieiraj)
+* Wallisson Rocha (@PilzTol)
