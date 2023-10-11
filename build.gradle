@@ -1,0 +1,27 @@
+plugins {
+	id 'java' 		// plugin do Gradle que adicionar tarefas para java
+	id 'org.springframework.boot' version '3.1.3'	// plugins do spring
+	id 'io.spring.dependency-management' version '1.1.3'
+}
+
+group = 'br.edu.ifpe.recife.gcms'	// descrição da app, pode apagar, sem impacto
+version = '0.0.1-SNAPSHOT'
+
+java {	// configurando versão do JDK
+	sourceCompatibility = '17'
+}
+
+repositories {	// de onde baixar os pacotes
+	mavenCentral()
+}
+
+dependencies {	// pacotes que vamos usar, basicamente coisas do Spring
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+//tasks.named('test') { // testes via JUnit; sintaxe antiga, substituir pela linha comentada abaixo
+test { 
+	useJUnitPlatform()
+}
+
