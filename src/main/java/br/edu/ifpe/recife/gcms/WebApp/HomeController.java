@@ -29,7 +29,7 @@ public class HomeController {
 
 	@RequestMapping("/hotfix")
 	public @ResponseBody String greetingHotfix() {
-		return "Hello, Hotfix!?!?";
+		return "Hello, Hotfix!!!";
 	}
 
 
