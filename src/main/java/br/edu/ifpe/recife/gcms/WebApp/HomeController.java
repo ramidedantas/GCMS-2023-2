@@ -11,15 +11,21 @@ public class HomeController {
 	public @ResponseBody String greeting() {
 		return "Hello, World!!!!";
 	}
-	
+
 	@RequestMapping("/fulano")
 	public @ResponseBody String greetingFulano() {
-		return "Hello, Fulano!";
+		return "Hello, Fulano!!!!";
+	}
+
+	@RequestMapping("/rafael")
+	public @ResponseBody String greetingRafael() {
+		return "Hello, Rafael!?!?";
 	}
 	
-	@RequestMapping("/rafael")
-	 public @ResponseBody String greetingRafael() {
-	 return "Hello, Rafael!?!?";
-	 }
+	@RequestMapping("/main")
+	public @ResponseBody String greetingMain() {
+		return "Hello, Main!?!?";
+	}
+
 
 }
