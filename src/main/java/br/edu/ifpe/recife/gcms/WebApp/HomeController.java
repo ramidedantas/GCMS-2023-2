@@ -22,10 +22,10 @@ public class HomeController {
 		return "Hello, Rafael!?!?";
 	}
 	
-	@RequestMapping("/main")
+	@RequestMapping("/alane")
 	public @ResponseBody String greetingMain() {
-		return "Hello, Main!?!?";
-
+		return "Hello, Alane!?!?";
+	}
 
 	@RequestMapping("/hotfix")
 	public @ResponseBody String greetingHotfix() {
