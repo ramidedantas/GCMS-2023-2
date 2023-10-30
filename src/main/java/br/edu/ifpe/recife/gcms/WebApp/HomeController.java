@@ -19,7 +19,7 @@ public class HomeController {
 
 	@RequestMapping("/rafael")
 	public @ResponseBody String greetingRafael() {
-		return "Hello, Rafael!?!?";
+		return "Hello, Rafael!?!??!";
 	}
 	
 	@RequestMapping("/alane")
@@ -34,7 +34,7 @@ public class HomeController {
 	
 	@RequestMapping("/rafaelmarques")
 	public @ResponseBody String greetingRafaelMarques() {
-		return "Hello, Rafael Marques!!!";
+		return "Hello, Rafael Marques!!!????";
 	}
 	@RequestMapping("/Luciano")
 	public @ResponseBody String greetingLuciano() {
