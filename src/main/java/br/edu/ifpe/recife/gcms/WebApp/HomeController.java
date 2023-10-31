@@ -46,5 +46,9 @@ public class HomeController {
 		return "Hello, Flavio!!!";
 	}
 
+	@RequestMapping("/maiara")
+	public @ResponseBody String greetingMaiara() {
+		return "Hello, Maiara!?!?";
+	}
 
 }
