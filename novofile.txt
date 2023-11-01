@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Testes para comitar e modificar
+=======
+Testes para comitar
+>>>>>>> 3d5e0c1d46c1d2e0c7bd75d6a930f44406197a01
 .
 .
 .
