@@ -15,3 +15,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Wallisson Rocha (@PilzTol)
 * Filipe Henrique de Lima(@fh3mrique)
 * Niviane Alves (@NivianeCas)
+* Welry Sanbey (@Wsanbey) 
