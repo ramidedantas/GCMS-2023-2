@@ -59,7 +59,7 @@ public class HomeController {
 //<<<<<<< HEAD
 	
 	@RequestMapping("/andrehotfix2")
-	public @ResponseBody String greetingAndre() {
+	public @ResponseBody String greetingAndreHotFix() {
 		return "Hello, AndreHotFix2!!!!";
 //=======
 //	@RequestMapping("/andrehotfix")
