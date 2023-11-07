@@ -59,11 +59,11 @@ public class HomeController {
 //<<<<<<< HEAD
 	
 	@RequestMapping("/andrehotfix2")
-	public @ResponseBody String greetingAndreHotFix() {
+	public @ResponseBody String greetingAndreHotFix2() {
 		return "Hello, AndreHotFix2!!!!";
 //=======
 //	@RequestMapping("/andrehotfix")
-//	public @ResponseBody String greetingAndre() {
+//	public @ResponseBody String greetingAndreHotFix() {
 //		return "Hello, AndreHotFix!!!!";
 //>>>>>>> hotfix
 	}
