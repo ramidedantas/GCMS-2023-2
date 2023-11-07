@@ -43,16 +43,34 @@ public class HomeController {
 	
 	@RequestMapping("/flavio")
 	public @ResponseBody String greetingFlavio() {
-		return "Hello, Flavio!!!";
+		return "Hello, Flavio!!! Branch criada";
 	}
+	
 
 	@RequestMapping("/maiara")
 	public @ResponseBody String greetingMaiara() {
 		return "Hello, Maiara!?!?";
 	}
+
 	@RequestMapping("/rebeca")
 	public @ResponseBody String greetingMaiara() {
 		return "Hello, Rebeca!";
+	}
+	
+	@RequestMapping("/andre")
+	public @ResponseBody String greetingAndre() {
+		return "Hello, Andre!!!!";
+	}
+//<<<<<<< HEAD
+	
+	@RequestMapping("/andrehotfix2")
+	public @ResponseBody String greetingAndreHotFix() {
+		return "Hello, AndreHotFix2!!!!";
+//=======
+//	@RequestMapping("/andrehotfix")
+//	public @ResponseBody String greetingAndre() {
+//		return "Hello, AndreHotFix!!!!";
+//>>>>>>> hotfix
 
 	}
 
