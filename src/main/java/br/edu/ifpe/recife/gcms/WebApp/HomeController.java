@@ -63,7 +63,7 @@ public class HomeController {
 		return "Hello, Andre!!!!";
 	}
 //<<<<<<< HEAD
-	
+//criei a ramificação andresilva	
 	@RequestMapping("/andrehotfix2")
 	public @ResponseBody String greetingAndreHotFix2() {
 		return "Hello, AndreHotFix2!!!!";
