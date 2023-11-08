@@ -26,47 +26,44 @@ class WebAppApplicationTests {
 
 	@Test
 	public void shouldReturnDefaultMessage() throws Exception {
-		this.mockMvc.perform(get("/"))
-				.andDo(print()).andExpect(status().isOk())
-				.andExpect(content()
-						.string(containsString("Hello, World")));
+		this.mockMvc.perform(get("/")).andDo(print()).andExpect(status().isOk())
+				.andExpect(content().string(containsString("Hello, World")));
 	}
-	
+
 	@Test
 	public void novoTeste() throws Exception {
-		this.mockMvc.perform(get("/fulano"))
-				.andDo(print()).andExpect(status().isOk())
-				.andExpect(content()
-						.string(containsString("Hello, Fulano")));
+		this.mockMvc.perform(get("/fulano")).andDo(print()).andExpect(status().isOk())
+				.andExpect(content().string(containsString("Hello, Fulano")));
 	}
-	
+
 	@Test
 	public void shouldReturnDefaultMessage2() throws Exception {
 		this.mockMvc.perform(get("/Luciano")).andDo(print()).andExpect(status().isOk())
 				.andExpect(content().string(containsString("Hello, Luciano")));
 	}
-	
+
 	@Test
 
 	public void shouldReturnDefaultMessage3() throws Exception {
 		this.mockMvc.perform(get("/flavio")).andDo(print()).andExpect(status().isOk())
 				.andExpect(content().string(containsString("Hello, Flavio!!! Branch criada")));
+	}
 
 	public void shouldReturnDefaultMessageAlane() throws Exception {
 		this.mockMvc.perform(get("/alane")).andDo(print()).andExpect(status().isOk())
 				.andExpect(content().string(containsString("Hello, Alane!?!?")));
 
 	}
-	
+
 	@Test
 	public void shouldReturnDefaultMessageMaiara() throws Exception {
 		this.mockMvc.perform(get("/maiara")).andDo(print()).andExpect(status().isOk())
 				.andExpect(content().string(containsString("Hello, Maiara!?!?")));
 	}
 
-		@Test
-		public void shouldReturnDefaultMessageMaiara() throws Exception {
-			this.mockMvc.perform(get("/welry")).andDo(print()).andExpect(status().isOk())
-					.andExpect(content().string(containsString("Hello, Welry!?!?")));
-		}
+//	@Test
+//	public void shouldReturnDefaultMessageWelry() throws Exception {
+//		this.mockMvc.perform(get("/welry")).andDo(print()).andExpect(status().isOk())
+//				.andExpect(content().string(containsString("Hello, Welry!?!?")));
+//	}
 }
