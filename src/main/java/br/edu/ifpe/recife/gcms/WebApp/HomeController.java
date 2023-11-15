@@ -53,14 +53,24 @@ public class HomeController {
 	}
 
 	@RequestMapping("/rebeca")
-	public @ResponseBody String greetingRebeca() {
+	public @ResponseBody String greetingRebeca {
 		return "Hello, Rebeca!";
 	}
 	
-	//Alterações no fork
-	//Alteração para forçar um Reverse Pull Request
-	@RequestMapping("/andrefork")
-	public @ResponseBody String greetingAndreFork() {
-		return "Hello, AndreFork!";
+	@RequestMapping("/andre")
+	public @ResponseBody String greetingAndre() {
+		return "Hello, Andre!!!!";
 	}
+	
+	@RequestMapping("/andrehotfix2")
+	public @ResponseBody String greetingAndreHotFix() {
+		return "Hello, AndreHotFix2!!!!";
+//=======
+//	@RequestMapping("/andrehotfix")
+//	public @ResponseBody String greetingAndre() {
+//		return "Hello, AndreHotFix!!!!";
+//>>>>>>> hotfix
+
+	}
+
 }
