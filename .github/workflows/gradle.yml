@@ -21,7 +21,7 @@ jobs:
 
     runs-on: ubuntu-latest
     container:
-      image: docker://ramideifpe/gmcs-2023-2:gcms-aula 
+      image: docker://ramideifpe/gcms-2023-2:gcms-aula 
 
     steps:
     - uses: actions/checkout@v3
