@@ -76,5 +76,9 @@ public class HomeController {
 //>>>>>>> hotfix
 
 	}
+	@RequestMapping("/LucianoCopiaModificada")
+	public @ResponseBody String greetingLuciano2() {
+	return "Hello, LucianoCopiaModificada!";
+	}
 
 }
