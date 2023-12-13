@@ -89,4 +89,10 @@ public class HomeController {
 	return "Hello, LucianoCopiaModificada!";
 	}
 
+	@RequestMapping("/allamy")
+	public @ResponseBody String greetingAllamy() {
+		return "Hello, Allamy!!!!";
+	}
+
+
 }
