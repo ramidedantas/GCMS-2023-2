@@ -62,7 +62,7 @@ class WebAppApplicationTests {
 	}
 	
 	 public void shouldReturnDefaultMessageAlane() throws Exception {
-		this.mockMvc.perform(get("/rebeca")).andDo(print()).andExpect(status().isOk())
+		this.mockMvc.perform(get("/maiara")).andDo(print()).andExpect(status().isOk())
 				.andExpect(content().string(containsString("Hello, Rebeca!?")));
 
 	}
