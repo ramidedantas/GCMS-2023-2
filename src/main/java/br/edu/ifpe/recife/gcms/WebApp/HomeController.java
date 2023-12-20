@@ -99,5 +99,10 @@ public class HomeController {
 		return "Hello, Allamy - Hotfix!!!!";
 	} */
 
+	@RequestMapping("/niviane")
+	public @ResponseBody String greetingNiviane() {
+		return "Hello, Niviane!!!!";
+	}
+
 
 }
