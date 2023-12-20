@@ -60,6 +60,13 @@ class WebAppApplicationTests {
 		this.mockMvc.perform(get("/maiara")).andDo(print()).andExpect(status().isOk())
 				.andExpect(content().string(containsString("Hello, Maiara!?!?")));
 	}
+	
+	 public void shouldReturnDefaultMessageAlane() throws Exception {
+		this.mockMvc.perform(get("/rebeca")).andDo(print()).andExpect(status().isOk())
+				.andExpect(content().string(containsString("Hello, Rebeca!?")));
+
+	}
+
 
 //	@Test
 //	public void shouldReturnDefaultMessageWelry() throws Exception {
